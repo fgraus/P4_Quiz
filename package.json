@@ -1,0 +1,17 @@
+{
+  "name": "ejercicio3c",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "figlet": "^1.2.0",
+    "sequelize": "^4.36.0",
+    "sqlite3": "^3.1.13"
+  }
+}

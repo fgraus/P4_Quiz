@@ -218,6 +218,6 @@ exports.play = function (socket,rl) {
 };
 exports.credits = function (socket,rl) {
     log(socket,'Autor de la práctica:\n' +
-        colorize('Fernando Graus Launa','green'));
+        colorize('FERNANDO Graus Launa','green'));
     rl.prompt();
 };

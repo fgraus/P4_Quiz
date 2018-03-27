@@ -1,5 +1,5 @@
 {
-  "name": "ejercicio3c",
+  "name": "ejercicio4",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,17 @@
   "dependencies": {
     "chalk": "^2.3.2",
     "figlet": "^1.2.0",
+    "net": "^1.0.2",
     "sequelize": "^4.36.0",
     "sqlite3": "^3.1.13"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fgraus/P4_Quiz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fgraus/P4_Quiz/issues"
+  },
+  "homepage": "https://github.com/fgraus/P4_Quiz#readme"
 }

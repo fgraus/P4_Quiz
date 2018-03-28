@@ -15,10 +15,11 @@ const log = (socket,msg,color)=>{
 };
 
 const biglog = (socket,msg,color)=> {
-    log(socket,fig.textSync(msg,{horizontalLayout:'full'}), color);
+    log(socket,msg,color);
+    //log(socket,fig.textSync(msg,{horizontalLayout:'full'}), color);
 };
 const  errorlog = (socket,emsg)=> {
-    socket.write(`${colorize('Error','red')}: ${colorize(colorize(emsg,'red'),'bgYellowBright')}\n`);
+    socket.write(`${colorize('Error','red')}: ${colorize(colorize(emsg,'red'),'bgYellowBright')} \n`);
 };
 
 module.exports = {

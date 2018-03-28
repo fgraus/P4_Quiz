@@ -8,7 +8,8 @@ const net = require("net");
 
 net.createServer(socket => {
 
-    console.log("Se ha conectado un cliente desde " + socket.remoteAddress);
+    var addres = socket.remoteAddress + ' con puerto ' + socket.remotePort;
+    console.log("Se ha conectado un cliente desde " +  addres);
 
     biglog(socket,'CORE Quiz', 'green');
 
